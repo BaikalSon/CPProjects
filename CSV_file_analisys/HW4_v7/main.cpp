@@ -1,7 +1,6 @@
 #include <QFile>
 #include <iostream>
 #include <vector>
-//#include <algorithm>
 
 using namespace std;
 
@@ -67,7 +66,7 @@ for (int i = 0; i < list.size(); ++i) {
         cout << i << " = " << vec1[i] << endl;
     }
 
-// Task_3: find first smallest Temperature difference between the two nearest trend reversal points are
+// Task_3: find first smallest Temperature difference between the two nearest trend reversal points
     for (int i = 0; vec1.size(); i++) {
         if ((vec1[i+1] - vec1[i]) < 3){
             cout << endl << "Task 3 solution:" << endl;
@@ -76,5 +75,4 @@ for (int i = 0; i < list.size(); ++i) {
         }
     }
     return 0;
-
 }
