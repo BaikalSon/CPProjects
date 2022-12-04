@@ -1,0 +1,3 @@
+﻿  Jumble.cpp
+D:\AZ\1_Programming\С++\Practice\MicroSoftVisualStudio\Jumble\Jumble\Jumble.cpp(36,31): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  Jumble.vcxproj -> D:\AZ\1_Programming\С++\Practice\MicroSoftVisualStudio\Jumble\x64\Debug\Jumble.exe
